@@ -6,16 +6,18 @@ import Accordian from './components/accordian'
 import RandomColor from './components/random-color'
 import StarRating from './components/star-rating'
 import ImageSlider from './components/image-slider'
+import LoadMoreData from './components/load-more-data'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Accordian></Accordian>
+    {/* <Accordian></Accordian>
     <RandomColor></RandomColor>
     <StarRating noOfStars={10}/>
-    <ImageSlider url={`https://picsum.photos/v2/list`} limit={'10'} page={1}></ImageSlider>
+    <ImageSlider url={`https://picsum.photos/v2/list`} limit={'10'} page={1}></ImageSlider> 
+    <LoadMoreData></LoadMoreData> */}
     </>
   )
 }
