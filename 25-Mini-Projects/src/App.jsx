@@ -16,6 +16,9 @@ import TabTest from './components/custom-tabs/tab-test'
 import ModalText from './components/custom-modal-popup/modal-text'
 import GithubProfileFinder from './components/github-profile-finder'
 import TicTacToe from './components/tic-tac-toe'
+import FeatureFlagGlobalState from './components/feature-flag/context'
+import FeatureFlags from './components/feature-flag'
+import UserFetchHookTest from './components/use-fetch/test'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +37,13 @@ function App() {
     {/* <TabTest/> */}
     {/* <ModalText/> */}
     {/* <GithubProfileFinder/> */}
-    <TicTacToe/>
+    {/* <TicTacToe/> */}
+
+    {/* <FeatureFlagGlobalState>
+      <FeatureFlags/>
+    </FeatureFlagGlobalState> */}
+
+    <UserFetchHookTest/>    
     </>
   )
 }
