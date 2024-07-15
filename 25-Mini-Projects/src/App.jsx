@@ -19,6 +19,8 @@ import TicTacToe from './components/tic-tac-toe'
 import FeatureFlagGlobalState from './components/feature-flag/context'
 import FeatureFlags from './components/feature-flag'
 import UserFetchHookTest from './components/use-fetch/test'
+import UseOnClickOutsideTest from './components/use-outside-click/test'
+import UseWindowResizeTest from './components/use-window-resize/test'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,7 +45,9 @@ function App() {
       <FeatureFlags/>
     </FeatureFlagGlobalState> */}
 
-    <UserFetchHookTest/>    
+    {/* <UserFetchHookTest/>     */}
+    {/* <UseOnClickOutsideTest/> */}
+    <UseWindowResizeTest/>
     </>
   )
 }
