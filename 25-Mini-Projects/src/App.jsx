@@ -24,6 +24,8 @@ import UseWindowResizeTest from './components/use-window-resize/test'
 import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom'
 import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section'
 import Weather from './components/weather-app'
+import Calculator from './components/calculator'
+import Ecommerce from './components/e-commerce'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -53,7 +55,9 @@ function App() {
     {/* <UseWindowResizeTest/> */}
     {/* <ScrollToTopAndBottom/> */}
     {/* <ScrollToSection/> */}
-    <Weather/>
+    {/* <Weather/> */}
+    {/* <Calculator/> */}
+    <Ecommerce/>
     </>
   )
 }
